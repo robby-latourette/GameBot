@@ -13,10 +13,15 @@ async def on_ready():
     print(f'{bot.user.name} has connected to Discord!')
 
 @bot.command()
+<<<<<<< Updated upstream
 async def cum(ctx, arg):
     if isinstance(arg, int):
         await ctx.send(arg + "is not an integer, try again")
     else:
         await ctx.send(arg + "is an integer CONGRATS")
+=======
+async def fard(ctx, arg):
+    await ctx.send(arg)
+>>>>>>> Stashed changes
 
 bot.run(TOKEN)
