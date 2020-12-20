@@ -12,8 +12,11 @@ bot = commands.Bot(command_prefix='!')
 async def on_ready():
     print(f'{bot.user.name} has connected to Discord!')
 
-@bot.command
+@bot.command()
 async def fard(ctx, arg):
-    await ctx.send(arg)
+    if(!isinstance(arg, int))
+        await ctx.send(arg + "is not an integer, try again")
+    else
+        await ctx.send(arg + "is an integer CONGRATS")
 
 bot.run(TOKEN)
