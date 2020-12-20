@@ -1,3 +1,5 @@
+#Authors: Robby La Tourette, Andrew Barth-Yi
+
 import os
 import discord
 import random
@@ -6,7 +8,7 @@ from discord.ext import commands
 
 load_dotenv()
 TOKEN = os.getenv('DISCORD_TOKEN')
-bot = commands.Bot(command_prefix='gb')
+bot = commands.Bot(command_prefix='gb ')
 
 
 #Game Variables
