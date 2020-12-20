@@ -14,9 +14,9 @@ async def on_ready():
 
 @bot.command()
 async def cum(ctx, arg):
-    if(!isinstance(arg, int))
+    if isinstance(arg, int):
         await ctx.send(arg + "is not an integer, try again")
-    else
+    else:
         await ctx.send(arg + "is an integer CONGRATS")
 
 bot.run(TOKEN)
