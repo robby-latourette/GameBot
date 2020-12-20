@@ -1,0 +1,6 @@
+{
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true,
+    "python.pythonPath": "C:\\Users\\Robby\\AppData\\Local\\Programs\\Python\\Python39\\python.exe",
+    "compile-hero.disable-compile-files-on-did-save-code": false
+}
